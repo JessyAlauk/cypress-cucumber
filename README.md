@@ -83,10 +83,9 @@ cypress/
 cypress.config.js
 package.json
 ```
-
 Onde:
-    features: Onde ficam os arquivos .feature do projeto;
-    support/steps_definitions: Onde ficam os steps definitions, de acordo com o arquivo .feature;
-    pageobjects: Contem todas as ações e logica de cada pagina;
-    elements: Contém os elementos da pagina - seletor css;
+    - features: Onde ficam os arquivos .feature do projeto;
+    - support/steps_definitions: Onde ficam os steps definitions, de acordo com o arquivo .feature;
+    - pageobjects: Contem todas as ações e logica de cada pagina;
+    - elements: Contém os elementos da pagina - seletor css;
 ---
