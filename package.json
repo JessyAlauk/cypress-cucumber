@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.1.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@shelex/cypress-allure-plugin": "^2.41.2",
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.4.1"
+  },
+  "scripts": {
+    "test:chrome": "cypress open --browser chrome",
+    "test:headless": "cypress run --browser chrome",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report"
+  }
+}
